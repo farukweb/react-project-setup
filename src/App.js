@@ -3,21 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var person = {
+    name: "Faruk Ahmad",
+    job :"Student"
+  }
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           <h1>MY First App</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+  <h1>my heading:{person.name +" "+ person.job}</h1>
+        <h3>Programming</h3>
       </header>
     </div>
   );
